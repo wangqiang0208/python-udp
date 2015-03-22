@@ -35,4 +35,4 @@ if __name__ == '__main__':
     for i in range(0, 5):
         name = uuid.uuid4().time_mid
         t = Thread(target = connection, args = (name, HOST, PORT))
-        t.start();
+        t.start()
