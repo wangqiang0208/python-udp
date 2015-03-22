@@ -19,7 +19,7 @@ class SocketLogger():
         self.logger.setLevel(logging.DEBUG)
 #        self.logger.addHandler(self.handler)
         self.queue = Queue()
-        self.wthread = Thread(target = self.__write__)
+        self.wthread = Thread(target=self.__write__)
         self.wthread.start()
 
     def __write__(self):
