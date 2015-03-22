@@ -9,7 +9,7 @@ from udpthread import UdpThread
 from socketlogger import getDailyLogger
 
 if __name__ == '__main__':
-    HOST = "192.168.3.100"
+    HOST = "192.168.3.101"
     PORT = 54322
     BUFFER_SIZE = 1024
     

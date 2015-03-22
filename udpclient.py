@@ -29,7 +29,7 @@ def connection(name, host, port):
     
 if __name__ == '__main__':
     
-    HOST = '192.168.3.103'
+    HOST = '192.168.3.101'
     PORT = 54322
     
     for i in range(0, 5):
